@@ -12,7 +12,7 @@ service github:IssueCommentService on webhookListener {
       //Not Implementet
     }
     remote function onEdited(github:IssueCommentEvent payload ) returns error? {
-      //Not Implement
+      //Not Implemente
     }
     remote function onDeleted(github:IssueCommentEvent payload ) returns error? {
       //Not Implemente
