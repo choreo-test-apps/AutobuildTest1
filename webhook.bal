@@ -9,13 +9,13 @@ listener github:Listener webhookListener =  new(config,httpListener);
 service github:IssueCommentService on webhookListener {
   
     remote function onCreated(github:IssueCommentEvent payload ) returns error? {
-      //Not Implemented
+      // Not Implemented
     }
     remote function onEdited(github:IssueCommentEvent payload ) returns error? {
-     //Not Implemented
+     // Not Implemented
     }
     remote function onDeleted(github:IssueCommentEvent payload ) returns error? {
-      //Not Implemented
+      // Not Implemented
     }
 }
 
