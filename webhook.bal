@@ -15,7 +15,7 @@ service github:IssueCommentService on webhookListener {
      // Not Implemented
     }
     remote function onDeleted(github:IssueCommentEvent payload ) returns error? {
-      // Not Implemented
+      // Not Implemented this
     }
 }
 
